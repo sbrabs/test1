@@ -1,5 +1,5 @@
 steps:
-  MV_LINEITEM-48e00fa6-3960-4f48-8dcc-223879977c0a:
+  MV_LINEITEM_RENAME-48e00fa6-3960-4f48-8dcc-223879977c0a:
     operation:
       config:
         clusterKey: true
@@ -268,9 +268,9 @@ steps:
                 nodeName: LINEITEM
             join:
               joinCondition: FROM {{ ref('SRC', 'LINEITEM') }} "LINEITEM"
-            name: MV_LINEITEM
+            name: MV_LINEITEM_RENAME
             noLinkRefs: []
-      name: MV_LINEITEM
+      name: MV_LINEITEM_RENAME
       overrideSQL: false
       schema: ""
       sqlType: "132"
