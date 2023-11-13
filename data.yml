@@ -310,7 +310,9 @@ macros:
 
 
 packages: {}
-projects: {}
+projects:
+  "1":
+    name: SCOTTFIXESDEPLOYMENT
 stepTypes:
   StepType-116:
     id: "116"
